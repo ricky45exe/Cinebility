@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinebility</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Open+Sans&family=Oswald:wght@500&family=Playfair+Display&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon" />
+  </head>
+  <body id="body">
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="finalxyz.png" alt="logo" class="logo-1" />
+      </div>
+      <div class="search">
+        <input
+          type="text"
+          id="movieName"
+          class="search-input"
+          placeholder="Find the details of the movie..."
+        />
+        <button class="btn" onclick="searchMovie()">Search Movie</button>
+      </div>
+
+      <!-- <div class="logo-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          class="bi"
+          viewBox="0 0 16 16"
+          onclick="color()"
+        >
+          <path
+            d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+          />
+          <path
+            d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+          />
+        </svg>
+      </div> -->
+      <div class="about-us">
+        <h3><a href="index3.html">About Us</a></h3>
+      </div>
+
+      <div class="profile-card">
+        <div class="profile"><h3></h3></div>
+        <img src="" alt="profile" class="img" id="img" onclick="profile()" />
+      </div>
+    </div>
+
+    <div class="slide-container" id="slider">
+      <div class="slide">
+        <img src="godzilla.jpg" alt="avenger" height="525px" />
+      </div>
+      <div class="slide">
+        <img src="8-xmen-movie-poster-design.jpg" alt="" height="525px" />
+      </div>
+      <div class="slide">
+        <img src="int.jpg" alt="" height="525px" />
+      </div>
+      <div class="slide">
+        <img src="Bullet-Train-1.webp" alt="" height="525px" />
+      </div>
+      <div class="slide">
+        <img src="elsa.webp" alt="avenger" height="525px" />
+      </div>
+      <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+      <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+    <div id="text"></div>
+    <div id="main">
+      <div class="container">
+        <div class="content">
+          <h2 id="title"></h2>
+          <p>Director: <span id="Director"></span></p>
+          <p>Actors: <span id="actors"></span></p>
+          <p>Box office Collection: <span id="collection"></span></p>
+          <p>Description: <span id="Desc"></span></p>
+          <p>Awards: <span id="awards"></span></p>
+          <p>Writer: <span id="writer"></span></p>
+          <p>IMDB Ratings: <span id="ratings"></span></p>
+          <p>Genre: <span id="genre"></span></p>
+          <p>Released On: <span id="date"></span></p>
+        </div>
+        <img alt="" src="" class="poster" id="poster" />
+      </div>
+    </div>
+    <div class="theme">
+      <h1 class="font">Top Rated Movies</h1>
+    </div>
+    <div class="first">
+      <div>
+        <img
+          id="idiot"
+          src="3Idiots.jpg"
+          alt="idiots"
+          class="pictures"
+          onclick=" redirect()"
+        />
+      </div>
+      <div>
+        <img
+          src="MissionImpossibleFallout.jpg"
+          alt="mission"
+          class="pictures"
+          onclick="redirect2()"
+        />
+      </div>
+      <div>
+        <img src="Dark.jpg" alt="dark" class="pictures" onclick="redirect3()" />
+      </div>
+      <div>
+        <img
+          src="pathaan.jpg"
+          alt="pathan"
+          class="pictures"
+          onclick="redirect4()"
+        />
+      </div>
+      <div>
+        <img
+          src="Jawan.jpg"
+          alt="Jawan"
+          class="pictures"
+          onclick="redirect5()"
+        />
+      </div>
+    </div>
+
+    <div class="second">
+      <div>
+        <img
+          src="Rocketry.jpg"
+          alt="rocketry"
+          class="pictures"
+          onclick="redirect6()"
+        />
+      </div>
+      <div>
+        <img
+          src="Oppenheimer.jpg"
+          alt="open"
+          class="pictures"
+          onclick="redirect7()"
+        />
+      </div>
+      <div>
+        <img
+          src="gravity.jpg"
+          alt="gravity"
+          class="pictures"
+          onclick="redirect8()"
+        />
+      </div>
+      <div>
+        <img
+          src="Taare_Zameen_Par.jpg"
+          alt="taare"
+          class="pictures"
+          onclick="redirect9()"
+        />
+      </div>
+      <div>
+        <img
+          src="The Dark Knight.jpg"
+          alt="the dark knight"
+          class="pictures"
+          onclick="redirect10()"
+        />
+      </div>
+    </div>
+    <script src="script2.js"></script>
+    <!-- <script src="script2.js"></script> -->
+  </body>
+</html>

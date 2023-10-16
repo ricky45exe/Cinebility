@@ -1,0 +1,27 @@
+.major {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub-major {
+    color: rgba(255, 255, 255, 0.793);
+  }
+  .poster {
+    width: 230px;
+  }
+  .sub-major p {
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.793);
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  span {
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.793);
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  body {
+    background-color: black;
+  }

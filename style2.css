@@ -1,0 +1,185 @@
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+    margin: 0px;
+  }
+  .logo-1 {
+    width: 180px;
+    height: 70px;
+    background-color: transparent;
+  }
+  .nav-bar {
+    margin: 20px 0px 0px 30px;
+    display: flex;
+  }
+  .bi {
+    margin-top: 10px;
+    margin-left: 50px;
+    fill: rgb(251, 41, 4);
+  }
+  .search {
+    width: 600px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 240px;
+    display: flex;
+  }
+  .search-input {
+    width: 78%;
+    box-sizing: border-box;
+    padding: 5px;
+  
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgba(39, 38, 38, 0.714);
+    font-weight: lighter;
+  }
+  .search-input:focus {
+    outline: none;
+    border: none;
+  }
+  .btn {
+    background-color: rgba(254, 2, 2, 0.995);
+    color: white;
+    border: none;
+    width: 22%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .container {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    color: rgba(255, 255, 255, 0.793);
+    margin-left: 2px;
+  }
+  .poster {
+    width: 230px;
+  }
+  .content p {
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.793);
+    margin: 0 0 10px 0;
+    font-size: 16px;
+  }
+  span {
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.793);
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  #title {
+    margin-top: 0px;
+  }
+  #main {
+    display: none;
+  }
+  #text {
+    text-align: center;
+    color: white;
+  }
+  
+  .profile {
+    color: red;
+    margin-left: 35px;
+  }
+  .profile-card {
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+  .img {
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .about-us {
+    color: red;
+    margin-left: 50px;
+  }
+  a:link {
+    color: red;
+    text-decoration: none;
+  }
+  a:visited {
+    color: red;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  a:focus {
+    color: red;
+    text-decoration: none;
+  }
+  a:active {
+    color: red;
+    text-decoration: none;
+  }
+  span {
+    color: white;
+  }
+  .slide-container {
+    position: relative;
+    width: 100%;
+  }
+  .slide img {
+    width: 100%;
+  }
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.715);
+    padding: 8px 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  .next {
+    right: 10px;
+  }
+  .prev {
+    left: 10px;
+  }
+  .slide {
+    display: none;
+  }
+  .pictures {
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+  }
+  .font {
+    color: white;
+    margin-left: 20px;
+  }
+  .first {
+    display: flex;
+    justify-content: space-between;
+  }
+  .second {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us {
+    color: tomato;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Roboto Slab", serif;
+  }
+  .logo-1{
+    height: 200px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+  }
