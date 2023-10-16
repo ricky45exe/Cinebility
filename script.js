@@ -8,7 +8,7 @@ function myFunction() {
     ) {
       location.href = "index2.html";
     } else {
-      console.log("use right credential");
+      alert("Use right credential!!!!!!");
     }
    
   }
